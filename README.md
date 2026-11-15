@@ -27,6 +27,14 @@ Crystal is focused on windowing, not rendering or higher-level UI components. It
 > [!NOTE]
 > This implementation is in its earliest stage of development. The shared build environment is in place, but public APIs, library implementations, and runtime support have not yet been added.
 
+## Libraries
+
+| Library | Windows | macOS | Linux | Description |
+| --- | --- | --- | --- | --- |
+| Crystal | Not yet defined | Not yet defined | Not yet defined | Native windowing and system interaction. |
+
+Crystal does not yet define a library target or export binary files.
+
 ## Getting Started
 
 The repository uses **CMake 4.3 or later**, Git, and a C/C++ toolchain appropriate for the selected build preset.
@@ -52,21 +60,6 @@ cmake --preset aclang17-darwin24.6-arm64
 ```
 
 There are currently no library targets to compile. Preset availability depends on the host and installed toolchain; the presence of a preset does not imply verified runtime support.
-
-## Related Projects
-
-<table>
-  <tr>
-    <td width="50%" valign="top">
-      <h3><a href="https://github.com/catalystui/lib-core-c">lib-core-c</a></h3>
-      <p>Foundational C ABI libraries for CatalystUI core types, memory management, and text encoding.</p>
-    </td>
-    <td width="50%" valign="top">
-      <h3><a href="https://github.com/catalystui/build-cmake">build-cmake</a></h3>
-      <p>Shared CMake configuration, target metadata, and platform-specific build presets for CatalystUI's native libraries.</p>
-    </td>
-  </tr>
-</table>
 
 ## AI-Assisted Development
 
