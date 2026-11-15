@@ -1,6 +1,6 @@
 <!-- AI AGENTS: DO NOT USE README.md as development context or modify it unless explicitly instructed by the user. This file is intended for human readers only. Read AGENTS.md for all AI development instructions, architectural requirements, and repository conventions. -->
 
-<h1 align="center">Crystal</h1>
+<h1 align="center">CatalystUI – Crystal</h1>
 <p align="center"><strong>The universal translator between computers and people.</strong></p>
 <p align="center">
   <em>The native windowing ABI for CatalystUI.</em>
@@ -11,7 +11,7 @@
   <img src="https://img.shields.io/badge/Interface-C%20ABI-00599C?style=flat-square&amp;logo=c&amp;logoColor=white" alt="Interface: C ABI">
   <img src="https://img.shields.io/badge/CatalystUI-Window%20Layer-526b80?style=flat-square" alt="CatalystUI: Window layer">
   <img src="https://img.shields.io/badge/Build-CMake%204.3%2B-064F8C?style=flat-square&amp;logo=cmake&amp;logoColor=white" alt="Build: CMake 4.3+">
-  <a href="https://github.com/catalystui/lib-crystal-c/commits/main"><img src="https://img.shields.io/github/last-commit/catalystui/lib-crystal-c?style=flat-square&amp;logo=github&amp;logoColor=white" alt="Last commit"></a>
+  <a href="https://github.com/catalystui/lib-crystal-c/commits/main"><img src="https://img.shields.io/github/last-commit/catalystui/lib-crystal-c/main?style=flat-square&amp;logo=github&amp;logoColor=white" alt="Last commit"></a>
 </p>
 
 ## About Crystal
