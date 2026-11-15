@@ -1,8 +1,8 @@
 > **PRIMARY PROJECT CONTEXT** — Read this file before work. Keep it concise, current, and actionable. Do not use README.md as development context or edit it without explicit user authorization.
 
-# CatalystUI Project Contract
+# Crystal Project Contract
 
-`lib-catalyst-c` is the native C ABI implementation of the CatalystUI model. The model describes the categorization (Domains), representation (Stack), and transformation (Connectors) of information between humans and information systems. Implement the model as specified; do not invent new semantics or architectural requirements.
+`lib-crystal-c` (Crystal) is the native windowing ABI for CatalystUI, implementing Layer 2: Window. Provide portable windowing and system interaction contracts; keep rendering and higher-level UI components outside Crystal's scope. Follow applicable CatalystUI specifications; do not invent new semantics or architectural requirements.
 
 ## Working Rules
 
