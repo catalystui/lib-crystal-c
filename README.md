@@ -3,12 +3,13 @@
 <h1 align="center">Crystal</h1>
 <p align="center"><strong>The universal translator between computers and people.</strong></p>
 <p align="center">
-  <em>A native C ABI implementation of the CatalystUI model.</em>
+  <em>The native windowing ABI for CatalystUI.</em>
 </p>
 
 <p align="center">
   <a href="LICENSE"><img src="https://img.shields.io/badge/License-Apache--2.0-blue?style=flat-square&amp;logo=apache&amp;logoColor=white" alt="License: Apache-2.0"></a>
   <img src="https://img.shields.io/badge/Interface-C%20ABI-00599C?style=flat-square&amp;logo=c&amp;logoColor=white" alt="Interface: C ABI">
+  <img src="https://img.shields.io/badge/CatalystUI-Window%20Layer-526b80?style=flat-square" alt="CatalystUI: Window layer">
   <img src="https://img.shields.io/badge/Build-CMake%204.3%2B-064F8C?style=flat-square&amp;logo=cmake&amp;logoColor=white" alt="Build: CMake 4.3+">
   <a href="https://github.com/catalystui/lib-crystal-c/commits/main"><img src="https://img.shields.io/github/last-commit/catalystui/lib-crystal-c?style=flat-square&amp;logo=github&amp;logoColor=white" alt="Last commit"></a>
   <img src="https://img.shields.io/badge/Status-Early%20Development-orange?style=flat-square" alt="Status: Early development">
@@ -16,9 +17,11 @@
 
 ## About Crystal
 
-Crystal is the native C ABI implementation of the CatalystUI model. It aims to provide a portable, modular foundation for building human-computer interfaces across programming languages, operating systems, and rendering technologies.
+Crystal is the windowing library for CatalystUI, implementing **Layer 2: Window** of the CatalystUI model through a native C ABI.
 
-The project emphasizes simplicity, performance, and interoperability, giving developers the freedom to build interfaces without being tied to a particular technology or sensory domain.
+A window provides a view into the underlying system through which an application can receive interactions and deliver output. Crystal aims to provide a consistent, portable interface for working with these windows across platforms, without tying applications to a particular programming language or rendering technology.
+
+Crystal is focused on windowing, not rendering or higher-level UI components. Its purpose is to provide the connection point through which those systems can interact with the underlying platform.
 
 ## Development Status
 
