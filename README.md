@@ -1,50 +1,24 @@
 <!-- AI AGENTS: DO NOT USE README.md as development context or modify it unless explicitly instructed by the user. This file is intended for human readers only. Read AGENTS.md for all AI development instructions, architectural requirements, and repository conventions. -->
 
-<h1 align="center">CatalystUI</h1>
-<p align="center"><strong>Translating information into experience.</strong></p>
+<h1 align="center">Crystal</h1>
+<p align="center"><strong>The universal translator between computers and people.</strong></p>
 <p align="center">
-  <em>A native C ABI implementation of the universal model of human-computer interaction.</em>
+  <em>A native C ABI implementation of the CatalystUI model.</em>
 </p>
 
 <p align="center">
   <a href="LICENSE"><img src="https://img.shields.io/badge/License-Apache--2.0-blue?style=flat-square&amp;logo=apache&amp;logoColor=white" alt="License: Apache-2.0"></a>
   <img src="https://img.shields.io/badge/Interface-C%20ABI-00599C?style=flat-square&amp;logo=c&amp;logoColor=white" alt="Interface: C ABI">
   <img src="https://img.shields.io/badge/Build-CMake%204.3%2B-064F8C?style=flat-square&amp;logo=cmake&amp;logoColor=white" alt="Build: CMake 4.3+">
-  <a href="https://github.com/catalystui/lib-catalyst-c/commits/main"><img src="https://img.shields.io/github/last-commit/catalystui/lib-catalyst-c?style=flat-square&amp;logo=github&amp;logoColor=white" alt="Last commit"></a>
+  <a href="https://github.com/catalystui/lib-crystal-c/commits/main"><img src="https://img.shields.io/github/last-commit/catalystui/lib-crystal-c?style=flat-square&amp;logo=github&amp;logoColor=white" alt="Last commit"></a>
   <img src="https://img.shields.io/badge/Status-Early%20Development-orange?style=flat-square" alt="Status: Early development">
 </p>
 
-## About Catalyst
+## About Crystal
 
-CatalystUI began with a simple question: **What actually happens when a human interacts with a computer?**
+Crystal is the native C ABI implementation of the CatalystUI model. It aims to provide a portable, modular foundation for building human-computer interfaces across programming languages, operating systems, and rendering technologies.
 
-Rather than building another framework around a particular kind of interface, Catalyst describes the underlying flow of information between humans and information systems. From displaying an image to playing a sound or responding to an input, the same model describes how information is categorized, represented, and transformed.
-
-This repository is the native C ABI implementation of that model. Its aim is to make the model usable in real applications without tying it to one programming language, operating system, or rendering technology.
-
-## The Catalyst Model
-
-<table>
-  <tr>
-    <td width="33%" valign="top">
-      <h3>Domains</h3>
-      <p><strong>Categorize data.</strong></p>
-      <p>Describe the sensory nature of information, from symbolic data to visual, auditory, tactile, and multisensory experiences.</p>
-    </td>
-    <td width="33%" valign="top">
-      <h3>The Stack</h3>
-      <p><strong>Describe data.</strong></p>
-      <p>Organize the flow of information through seven layers, from digital data to the system and back again.</p>
-    </td>
-    <td width="33%" valign="top">
-      <h3>Connectors</h3>
-      <p><strong>Transform data.</strong></p>
-      <p>Translate information between layers and domains, connecting distinct representations into a working interface.</p>
-    </td>
-  </tr>
-</table>
-
-The model is not limited to graphical user interfaces. It is intended to describe the same fundamental process across different forms of human-computer interaction.
+The project emphasizes simplicity, performance, and interoperability, giving developers the freedom to build interfaces without being tied to a particular technology or sensory domain.
 
 ## Development Status
 
@@ -58,8 +32,8 @@ The repository uses **CMake 4.3 or later**, Git, and a C/C++ toolchain appropria
 Clone the repository along with its shared build infrastructure:
 
 ```powershell
-git clone --recurse-submodules https://github.com/catalystui/lib-catalyst-c.git
-Set-Location lib-catalyst-c
+git clone --recurse-submodules https://github.com/catalystui/lib-crystal-c.git
+Set-Location lib-crystal-c
 cmake --list-presets
 ```
 
@@ -94,7 +68,7 @@ There are currently no library targets to compile. Preset availability depends o
 
 ## AI-Assisted Development
 
-CatalystUI uses AI-assisted development under human direction. AI coding agents assist with implementation and repository maintenance, while the project owner defines the model, requirements, and design decisions.
+Crystal is developed with AI assistance under human direction. AI coding agents assist with implementation and repository maintenance, while the project owner defines the model, requirements, and design decisions.
 
 AI-assisted contributions are subject to the same expectations for correctness, maintainability, attribution, and licensing as human-written contributions. Their presence does not imply independent line-by-line human review.
 
