@@ -27,14 +27,6 @@ Crystal is focused on windowing, not rendering or higher-level UI components. It
 > [!NOTE]
 > This implementation is in its earliest stage of development. The shared build environment is in place, but public APIs, library implementations, and runtime support have not yet been added.
 
-## Libraries
-
-| Library | Windows | macOS | Linux | Description |
-| --- | --- | --- | --- | --- |
-| Crystal | Not yet defined | Not yet defined | Not yet defined | Native windowing and system interaction. |
-
-Crystal does not yet define a library target or export binary files.
-
 ## Getting Started
 
 The repository uses **CMake 4.3 or later**, Git, and a C/C++ toolchain appropriate for the selected build preset.
